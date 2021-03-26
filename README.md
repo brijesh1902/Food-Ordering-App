@@ -2,11 +2,11 @@
 Built Food delivery app using java, firebase and SQLite.
 User can use Razorpay Payment gateway for payments.
 Users can login and signup using Mobile Number and Password.
-While registration, user can set a 6 digit password for your account in case user have forgot login password.
+While registration, user can set a 6 digit password for your account in case user have forgot login password
+Added Push Notification using FCM.
 
 ## Screenshots
 ![Login](https://user-images.githubusercontent.com/47117023/112611061-5d0cb900-8e43-11eb-8f36-587fa8e0f6c6.png)
-![signup](https://user-images.githubusercontent.com/47117023/112611120-6f86f280-8e43-11eb-81f0-4fa4da22db09.png)
 ![forget password](https://user-images.githubusercontent.com/47117023/112611145-77469700-8e43-11eb-970b-ee648d2ab7d7.png)
 ![home page](https://user-images.githubusercontent.com/47117023/112611277-9fce9100-8e43-11eb-82c1-f6f8c2cbfbbf.png)
 ![favorite page](https://user-images.githubusercontent.com/47117023/112611293-a5c47200-8e43-11eb-99e5-c548a0a28fdf.png)
