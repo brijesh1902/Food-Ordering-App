@@ -208,11 +208,6 @@ public class CartActivity extends Activity implements PaymentResultListener {
                                 Manifest.permission.RECEIVE_SMS}, 101);
                     }
 
-                    /*Intent intent = new Intent(CartActivity.this, PaymentActivity.class);
-                    intent.putExtra("price", fprice);
-                    intent.putExtra("list", (CharSequence) list);
-                    startActivity(intent);*/
-
                     startPayment();
                     alertDialog.dismiss();
                 }
@@ -288,8 +283,7 @@ public class CartActivity extends Activity implements PaymentResultListener {
             JSONObject options = new JSONObject();
             options.put("name", "MyApp");
             options.put("description", "Reference No. #"+id);
-            //You can omit the image option to fetch the image from dashboard
-            //options.put("image", R.drawable.chatkara);
+           
             options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.png");
             options.put("CURRENCY", "INR");
             double total = Double.parseDouble(String.valueOf(fprice));
@@ -304,18 +298,7 @@ public class CartActivity extends Activity implements PaymentResultListener {
             options.put("prefill", preFill);
 
             co.open(activity, options);
-           /* razorpay.submit(co, new PaymentResultListener() {
-                @Override
-                public void onPaymentSuccess(String razorpayPaymentId) {
-                    // Razorpay payment ID is passed here after a successful payment
-                }
-
-                @Override
-                public void onPaymentError(int code, String description) {
-                    // Error code and description is passed here
-                }
-            });
-*/
+          
         } catch (Exception e) {
             Toast.makeText(activity, "Error in payment: " + e.getMessage(), Toast.LENGTH_SHORT)
                     .show();
