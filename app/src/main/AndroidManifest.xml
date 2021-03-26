@@ -74,7 +74,7 @@
 		
 		<meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_test_ZlvitOnKW93JOl" />
+            android:value="rzp_test_xxxxxxxxxxxxx" />
 
         <service android:name=".Service.FirebaseMessaging" android:exported="true"
             tools:ignore="InnerclassSeparator">
