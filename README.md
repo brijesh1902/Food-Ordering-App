@@ -5,4 +5,4 @@ Users can login and signup using Mobile Number and Password.
 While registration, user can set a 6 digit password for your account in case user have forgot login password.
 
 ## Screenshots
-https://github.com/brijesh1902/Readme_Images/issues/1#issue-841752465
+https://user-images.githubusercontent.com/47117023/112609966-2edaa980-8e42-11eb-8d6e-6d092cef56ee.png
