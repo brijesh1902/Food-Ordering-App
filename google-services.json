@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "914195664983",
+    "firebase_url": "https://hospitalapp-7d977.firebaseio.com",
+    "project_id": "hospitalapp-7d977",
+    "storage_bucket": "hospitalapp-7d977.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914195664983:android:91b86b9ecebdfadb201312",
+        "android_client_info": {
+          "package_name": "com.bpal.deliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914195664983-d2p1civ14foihlvpfdmhhg12ac6vcknc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bpal.deliveryapp",
+            "certificate_hash": "61bc66f4f7728d62a9856155255041d0bcf325af"
+          }
+        },
+        {
+          "client_id": "914195664983-7k8sta00vuv29opq7vfctd77uq99ntfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmZzywuscwLu1k22UxUVXq6xG5AjdXKs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914195664983-7k8sta00vuv29opq7vfctd77uq99ntfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914195664983:android:5388b624dbb8f643201312",
+        "android_client_info": {
+          "package_name": "com.bpal.deliveryappserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914195664983-8eu3tu028poe8s109d6313v7r53uusoa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bpal.deliveryappserver",
+            "certificate_hash": "61bc66f4f7728d62a9856155255041d0bcf325af"
+          }
+        },
+        {
+          "client_id": "914195664983-7k8sta00vuv29opq7vfctd77uq99ntfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmZzywuscwLu1k22UxUVXq6xG5AjdXKs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914195664983-7k8sta00vuv29opq7vfctd77uq99ntfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914195664983:android:9ff54eb5da4476ec201312",
+        "android_client_info": {
+          "package_name": "com.bpal.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914195664983-7k8sta00vuv29opq7vfctd77uq99ntfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmZzywuscwLu1k22UxUVXq6xG5AjdXKs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914195664983-7k8sta00vuv29opq7vfctd77uq99ntfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
