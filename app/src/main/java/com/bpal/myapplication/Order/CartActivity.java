@@ -277,7 +277,7 @@ public class CartActivity extends Activity implements PaymentResultListener {
         //Checkout.clearUserData(this);
         final Checkout co = new Checkout();
 
-        co.setKeyID("rzp_test_ZlvitOnKW93JOl");
+        co.setKeyID("rzp_test_xxxxxxxxxxxxx");
 
         try {
             JSONObject options = new JSONObject();
