@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bpal.myapplication">
+
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+		 <activity
+            android:name=".Login.Forget"
+            android:parentActivityName=".Login.LogIn"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Login.SignUp"
+            android:parentActivityName=".Login.LogIn"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Login.LogIn"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="InnerclassSeparator">
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+		</activity>
+        <activity
+            android:name=".Order.PaymentActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Order.OrderList"
+            android:label="Order"
+            android:parentActivityName=".Order.OrderActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Order.OrderActivity"
+            android:label="Orders"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Order.CartActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Order.ItemDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".FavActivity"
+            android:label="Favorite Food"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity android:name=".MainActivity"/>
+		
+		 <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+		
+		<meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_ZlvitOnKW93JOl" />
+
+        <service android:name=".Service.FirebaseMessaging" android:exported="true"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/searchview"
+    android:title="Search"
+    android:icon="@drawable/search"
+    app:showAsAction="always"
+    app:actionViewClass="android.widget.SearchView" />
+
+    <group>
+
+        <item android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+        <item android:id="@+id/order"
+            android:title="Order"
+            android:icon="@drawable/orderstatus"
+            />
+        <item android:id="@+id/fav"
+            android:title="Favourite Food"
+            />
+
+        <item android:id="@+id/addhome"
+            android:title="Home Address"
+            android:icon="@drawable/homeadd"
+            />
+        <item android:title="LogOut"
+            android:icon="@drawable/logout"
+            android:id="@+id/logout"
+            />
+
+    </group>
+
+</menu>

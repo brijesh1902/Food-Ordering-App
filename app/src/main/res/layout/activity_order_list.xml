@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order.OrderList">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       >
+
+       <androidx.constraintlayout.widget.Guideline
+           android:id="@+id/guideline5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           app:layout_constraintGuide_percent="0.5" />
+
+       <TextView
+           android:id="@+id/textView12"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="Order Information"
+           android:textColor="#060606"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:background="#060606"
+           app:cardElevation="3dp"
+           app:cardUseCompatPadding="true"
+           app:layout_constraintTop_toBottomOf="@+id/textView12"
+           tools:ignore="MissingConstraints"
+           tools:layout_editor_absoluteX="16dp">
+
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp">
+
+               <TextView
+                   android:id="@+id/ordate"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginEnd="5dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintBottom_toTopOf="@+id/usname"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/ordid" />
+
+               <TextView
+                   android:id="@+id/ordid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginTop="5dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toTopOf="parent" />
+
+               <TextView
+                   android:id="@+id/usname"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginTop="20dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/ordid" />
+
+               <TextView
+                   android:id="@+id/usno"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginTop="10dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/usname" />
+
+               <TextView
+                   android:id="@+id/usadd"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginTop="10dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/usno" />
+
+               <TextView
+                   android:id="@+id/stat"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/usadd" />
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardView2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           app:cardElevation="3dp"
+           app:cardUseCompatPadding="true"
+           app:layout_constraintTop_toBottomOf="@+id/cardView"
+           tools:ignore="MissingConstraints"
+           tools:layout_editor_absoluteX="16dp">
+
+
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp">
+
+               <TextView
+                   android:id="@+id/textView11"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="10dp"
+                   android:text="Payment Details"
+                   android:textColor="#060606"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/tprice"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+               <TextView
+                   android:id="@+id/paymethod"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/tprice" />
+
+               <TextView
+                   android:id="@+id/paystat"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:text="TextView"
+                   android:textColor="#060606"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/paymethod" />
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <TextView
+           android:id="@+id/textView10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp"
+           android:layout_marginTop="10dp"
+           android:text="Item Details"
+           android:textColor="#060606"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/listrv"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.5"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
