@@ -10,6 +10,8 @@ While registration, user can set a 6 digit password for your account in case use
 
 Added Push Notification using FCM.
 
+User can add their favourite food to favourite list and can see the order history with details of deliveryprocess.
+
 ## Screenshots
 ![Login](https://user-images.githubusercontent.com/47117023/112611061-5d0cb900-8e43-11eb-8f36-587fa8e0f6c6.png)
 ![forget password](https://user-images.githubusercontent.com/47117023/112611145-77469700-8e43-11eb-970b-ee648d2ab7d7.png)
